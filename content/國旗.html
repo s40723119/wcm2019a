@@ -116,14 +116,14 @@ init_mathjax();
             <header class="site-navbar py-4 bg-white" role="banner">
               <div class="container-fluid">
                 <div class="row align-items-center">
-                <h1>2019 Spring 網際內容管理期末報告示範網站</h1>
+                <h1>40723119倉儲</h1>
                 <div class="pl-4">
                     <form>
                     <input type="text" placeholder="Search" name="q" id="tipue_search_input" pattern=".{2,}" title="At least 2 characters" required>
                     </form>
                 </div>
                   <!-- <div class="col-11 col-xl-2">
-                    <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">2019 Spring 網際內容管理期末報告示範網站</a></h1> 
+                    <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">40723119倉儲</a></h1> 
                   </div>
                   -->
                   <div class="col-12 col-md-10 d-none d-xl-block">
@@ -136,7 +136,7 @@ init_mathjax();
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li><a href='網路連線設定.html'>網路連線設定</a><li><a href='配置可攜程式環境.html'>配置可攜程式環境</a><li><a href='倉儲改版.html'>倉儲改版</a><li><a href='靜態CMSimfly.html'>靜態CMSimfly</a><li><a href='Mobile網站內容.html'>Mobile網站內容</a><li><a href='Virtual Host虛擬主機.html'>Virtual Host虛擬主機</a><li class='has-children'><a href='期中報告.html'>期中報告</a><ul class='dropdown'><li><a href='簡介.html'>簡介</a><li><a href='目錄結構.html'>目錄結構</a><li class='has-children'><a href='頁面編輯.html'>頁面編輯</a><ul class='dropdown'><li><a href='插入程式碼.html'>插入程式碼</a></li></ul><li><a href='網際簡報.html'>網際簡報</a><li><a href='網誌編輯.html'>網誌編輯</a><li><a href='已知錯誤.html'>已知錯誤</a><li><a href='GAME1.html'>GAME1</a><li><a href='期中報告(個人影片).html'>期中報告(個人影片)</a></li></ul><li><a href='國旗.html'>國旗</a></li>
+                     <li><a href='網路連線設定.html'>網路連線設定</a><li><a href='配置可攜程式環境.html'>配置可攜程式環境</a><li><a href='倉儲改版.html'>倉儲改版</a><li><a href='靜態CMSimfly.html'>靜態CMSimfly</a><li><a href='Mobile網站內容.html'>Mobile網站內容</a><li><a href='Virtual Host虛擬主機.html'>Virtual Host虛擬主機</a><li class='has-children'><a href='期中報告.html'>期中報告</a><ul class='dropdown'><li><a href='簡介.html'>簡介</a><li><a href='目錄結構.html'>目錄結構</a><li class='has-children'><a href='頁面編輯.html'>頁面編輯</a><ul class='dropdown'><li><a href='插入程式碼.html'>插入程式碼</a></li></ul><li><a href='網際簡報.html'>網際簡報</a><li><a href='網誌編輯.html'>網誌編輯</a><li><a href='已知錯誤.html'>已知錯誤</a><li><a href='GAME1.html'>GAME1</a><li><a href='期中報告(個人影片).html'>期中報告(個人影片)</a></li></ul><li><a href='國旗.html'>國旗</a><li><a href='期末影片.html'>期末影片</a></li>
                       </ul>
                 </nav>
               </div>
@@ -147,7 +147,7 @@ init_mathjax();
           </div>
           
         </header>
-    <div id="tipue_search_content">期中報告(個人影片) << <a href='期中報告(個人影片).html'>Previous</a> <br /><h1>國旗</h1>
+    <div id="tipue_search_content">期中報告(個人影片) << <a href='期中報告(個人影片).html'>Previous</a> <a href='期末影片.html'>Next</a> >> 期末影片<br /><h1>國旗</h1>
 <!-- 導入 Brython 標準程式庫 -->
 <script src="./../static/brython.js"></script>
 <script src="./../static/brython_stdlib.js"></script>
@@ -176,11 +176,11 @@ flag_h = canvas.height
 circle_x = flag_w/4
 circle_y = flag_h/4
 # 先畫滿地紅
-ctx.fillStyle='rgb(255, 150, 150)'
+ctx.fillStyle='rgb(255, 0, 0)'
 ctx.fillRect(0,0,flag_w,flag_h)
 # 再畫青天
 ctx.fillStyle='rgb(0, 0, 150)'
-ctx.fillRect(flag_w/4,flag_h/4,flag_w/2,flag_h/2)
+ctx.fillRect(0,0,flag_w/2,flag_h/2)
 # 畫十二道光芒白日
 ctx.beginPath()
 star_radius = flag_w/8
@@ -212,7 +212,8 @@ ctx.closePath()
 # 填色設為白色
 ctx.fillStyle = '#fff'
 ctx.fill()
-</script><br />期中報告(個人影片) << <a href='期中報告(個人影片).html'>Previous</a> </div>
+</script>
+<br />期中報告(個人影片) << <a href='期中報告(個人影片).html'>Previous</a> <a href='期末影片.html'>Next</a> >> 期末影片</div>
         
     <!-- footer -->
       <div class="container">
